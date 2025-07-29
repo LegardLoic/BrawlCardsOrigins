@@ -1,0 +1,40 @@
+:root {
+  --scale: 1;
+}
+
+.game-container {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wrapper {
+    width: 1920px;
+    height: 1080px;
+    min-width: 1920px;
+    min-height: 1080px;
+    aspect-ratio: 16 / 9;
+    transform: scale(var(--scale));
+    transform-origin: center center;
+    position: relative;
+}
+
+.img-fond {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.phase{
+    position: absolute;
+    right: 330px;
+    bottom: 170px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+

@@ -1,0 +1,118 @@
+.player2HudFight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hudPersoPlayer2Fight {
+    position: absolute;
+    left: 770px;
+    top: 0px;
+    width: 374px;
+}
+.orlvlimghudP2Fight{
+    position: absolute;
+    top: 100px;
+    right: 680px;
+}
+.player2OrFight{
+    position: absolute;
+    color: white;
+    top: 113px;
+    right: 695px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+}
+.player2LvlFight{
+    position: absolute;
+    color: white;
+    top: 160px;
+    right: 695px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+}
+.hpimghudP2Fight{
+    position: absolute;
+    top: 225px;
+    left: 930px;
+    width: 55px;
+    z-index: 1;
+}
+.player2PvFight{
+    position: absolute;
+    color: white;
+    top: 251px;
+    right: 932px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+    z-index: 1;
+}
+
+
+
+
+.player2Hud{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hudPersoPlayer2 {
+    position: absolute;
+    left: 776px;
+    bottom: 4px;
+    width: 370px;
+    z-index: 0;
+}
+.orlvlimghudP2{
+    position: absolute;
+    bottom: 120px;
+    right: 675px;
+    z-index: 0;
+}
+.player2Or{
+    position: absolute;
+    color: white;
+    bottom: 190px;
+    right: 695px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+}
+.player2Lvl{
+    position: absolute;
+    color: white;
+    bottom: 145px;
+    right: 695px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+}
+.hpimghudP2{
+    position: absolute;
+    bottom: 53px;
+    left: 935px;
+    width: 55px;
+    z-index: 1;
+}
+.player2Pv{
+    position: absolute;
+    color: white;
+    bottom: 58px;
+    right: 928px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+    z-index: 1;
+}

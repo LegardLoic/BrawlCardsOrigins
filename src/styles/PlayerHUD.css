@@ -1,0 +1,58 @@
+.playerHud{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.hudPersoPlayer {
+    position: absolute;
+    left: 776px;
+    bottom: 4px;
+    width: 370px;
+    z-index: 0;
+}
+.orlvlimghud{
+    position: absolute;
+    bottom: 120px;
+    right: 675px;
+    z-index: 0;
+}
+.playerOr{
+    position: absolute;
+    color: white;
+    bottom: 190px;
+    right: 695px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+}
+.playerLvl{
+    position: absolute;
+    color: white;
+    bottom: 145px;
+    right: 695px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+}
+.hpimghud{
+    position: absolute;
+    bottom: 53px;
+    left: 935px;
+    width: 55px;
+    z-index: 1;
+}
+.playerPv{
+    position: absolute;
+    color: white;
+    bottom: 58px;
+    right: 928px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    width: 60px;
+    z-index: 1;
+}

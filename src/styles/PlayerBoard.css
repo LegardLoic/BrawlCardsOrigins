@@ -1,0 +1,23 @@
+.playerBoard{
+  position: absolute;
+  top: 0px;
+  left: 255px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+.pv-damaged {
+  color: red;
+  font-weight: bold;
+  animation: shakePv 0.5s ease;
+}
+
+@keyframes shakePv {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.1); }
+  50% { transform: scale(1); }
+  75% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
