@@ -1,0 +1,43 @@
+.alert-overlay {
+    position: absolute; /* ← au lieu de fixed */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .alert-box {
+    background: white;
+    border-radius: 12px;
+    padding: 20px 30px;
+    box-shadow: 0 0 10px #0003;
+    text-align: center;
+    max-width: 90vw;
+    color: black; /* 👈 AJOUT ICI */
+  }
+  
+  .alert-box p {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .alert-box button {
+    padding: 8px 16px;
+    font-weight: bold;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .alert-box button:hover {
+    background-color: #0056b3;
+  }
+  
